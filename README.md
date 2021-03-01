@@ -2,7 +2,7 @@
 <h2># Projetos</h2> <br>
 Neste repositório há alguns de meus projetos desenvolvidos e em desenvolvimento. <br>
 Cada pasta corresponde a um projeto, e dentro dessas pastas existe um arquivo <strong>Readme.md</strong><br>
-onde haverá um link de um video mostrando o projeto, e uma breve descrição de como funciona.
+onde haverá um link de um video mostrando o projeto (ou apenas um Preview no próprio arquivo), e uma breve descrição de como funciona.
 
 <h2>Objetivo</h2><br>
 O objetivo do repositório é comprovar as minhas habilidades de forma prática, <br>
