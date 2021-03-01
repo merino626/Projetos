@@ -10,7 +10,7 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 <br>
 
 <h3>Use a tabela abaixo para facilitar a navegação no repositório:</h3>
-<table>
+<table bgcolor="#C0C0C0">
   <tr>
     <th colspan=2><strong> Projetos</strong></th>
     <td><strong> Linguagem </strong></td>
