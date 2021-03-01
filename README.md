@@ -17,7 +17,7 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
     <td><strong> Pasta </strong></td>
   </tr>
    <tr>
-    <td> Interface</td>
+    <td> Tela de login</td>
     <td> https://www.youtube.com</td>
     <td> Python</td>
      <td> <a href='https://github.com/merino626/Projetos/tree/main/interface'>Ver código fonte</a></td>
