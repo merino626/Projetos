@@ -14,12 +14,12 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
   <tr>
     <th colspan=2><strong> Projetos</strong></th>
     <td><strong> Linguagem </strong></td>
-    <td><strong> Pasta </strong></td>
+    <td><strong> Sobre </strong></td>
   </tr>
    <tr>
     <td> Tela de login</td>
-    <td><a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/README.md'> Documentação </a> </td>
     <td> Python</td>
+    <td><a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/README.md'> Documentação </a> </td>
      <td> <a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/Login_simples.py'>Ver código fonte</a></td>
   </tr>
 
