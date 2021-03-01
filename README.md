@@ -16,6 +16,11 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
     <td> Dado1</td>
     <td> Dado2</td>
   </tr>
+   <tr>
+    <td> Dado3</td>
+    <td> Dado1</td>
+    <td> Dado2</td>
+  </tr>
 
 
 </table>
