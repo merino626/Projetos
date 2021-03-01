@@ -9,7 +9,7 @@
   <li>
     <h3>1 - A interface </h3>
     <img src='https://user-images.githubusercontent.com/65437607/109542017-4755df00-7aa3-11eb-963b-5f1d1061364e.png'>
-    <p>A interface consiste em uma tela muito simples de cadastro, com os campos necessários para a criação de uma conta. Logo após, na parte de baixo existe a tela de login, na          qual o usuário terá que usar os dados que acabou de cadastrar para se logar no sistema. </p>
+    <p>A interface consiste em uma tela muito simples de cadastro, com os campos necessários para a criação de uma conta. Logo após, na parte de baixo da mesma janela existe a         tela de login, na qual o usuário terá que usar os dados que acabou de cadastrar para se logar no sistema. </p>
   </li>
   
   <li>
