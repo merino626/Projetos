@@ -18,9 +18,9 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
   </tr>
    <tr>
     <td> Tela de login</td>
-    <td> https://www.youtube.com</td>
+    <td> </td>
     <td> Python</td>
-     <td> <a href='https://github.com/merino626/Projetos/tree/main/interface'>Ver código fonte</a></td>
+     <td> <a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/Login_simples.py'>Ver código fonte</a></td>
   </tr>
 
 
