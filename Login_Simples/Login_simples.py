@@ -111,7 +111,6 @@ class Janela:
             self.lb_mensagem['fg'] = 'red'
             return
 
-
         index_arroba = email.index('@')
         dominio = email[index_arroba+1::]
         ponto = 0
@@ -123,7 +122,6 @@ class Janela:
             self.lb_mensagem['text'] = 'Informe um Email válido'
             self.lb_mensagem['fg'] = 'red'
             return
-
 
         # Verificações do campo senha
         if senha == '':
@@ -138,6 +136,7 @@ class Janela:
                 tem_numerico = True
             if i in '!@#$%&*':
                 tem_caractere_especial = True
+
         if not(tem_numerico and tem_caractere_especial):
             self.lb_mensagem['text'] = 'senha precisa conter números e simbolos(!@#$%&*)'
             self.lb_mensagem['fg'] = 'red'
@@ -147,8 +146,6 @@ class Janela:
             self.lb_mensagem['text'] = 'senha precisa ter 8 caracteres'
             self.lb_mensagem['fg'] = 'red'
             return
-
-
 
         self.contas[self.id] = [nome, email, senha]
         self.id += 1
@@ -185,18 +182,8 @@ class Janela:
         self.lb_mensagem.config(text=self.lb_mensagem['text'] + f'{hora}:{minuto}:{segundo}')
     
 
-
-
-
-
-
-
-
-
 janela = Tk()
 janela.title('Cadastro')
 janela.geometry('450x300+800+300')
 Janela(janela)
-
-
 janela.mainloop()
