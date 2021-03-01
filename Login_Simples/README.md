@@ -70,4 +70,12 @@
       Após a conta ser criada é possivel visualizar todos os dados digitados pelo usuario, e manipula-los da melhor forma.
     </p>
   </li>
+  
+   <li>
+    <h3>9 - Login no sistema </h3>
+    <img src='https://user-images.githubusercontent.com/65437607/109546931-90a92d00-7aa9-11eb-9538-224962a7e5a3.png'>
+    <p> 
+      Depois que o usuário já possui a conta, ele pode se autenticar no sistema e logar. Nesta imagem, a senha foi digitada incorretamente, não correspondendo a este usuário. 
+    </p>
+  </li>
 </ul>
