@@ -91,7 +91,7 @@
     <h3>11 - Logado no sistema </h3>
     <img src='https://user-images.githubusercontent.com/65437607/109547535-3ceb1380-7aaa-11eb-8218-88c1d5bb0d15.png'>
     <p> 
-      Se o usuário e senha digitados corresponderem ao banco de usuários já cadastrados, a mensagem de sucesso aparecerá após o clique de login no botão.
+      Se o usuário e senha digitados corresponderem ao banco de usuários já cadastrados, a mensagem de sucesso aparecerá após o clique no botão "conectar".
     </p>
   </li>
 </ul>
