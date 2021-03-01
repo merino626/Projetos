@@ -10,8 +10,12 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 <br>
 
 
-<ol>
-  <li>1 </li>
-  <li>2 </li>
-  <li>3 </li>
-</ol>
+<table>
+  <tr>
+    <th> Lista </th>
+    <td> Dado1</td>
+    <td> Dado2</td>
+  </tr>
+
+
+</table>
