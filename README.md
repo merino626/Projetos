@@ -25,4 +25,4 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 
 
 </table>
-<img href='https://user-images.githubusercontent.com/65437607/109531550-cf81b780-7a96-11eb-8fae-270707e279cc.png'> 
+<img href='https://user-images.githubusercontent.com/65437607/109531550-cf81b780-7a96-11eb-8fae-270707e279cc.png'> </img>
