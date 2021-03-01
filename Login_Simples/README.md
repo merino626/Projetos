@@ -78,4 +78,12 @@
       Depois que o usuário já possui a conta, ele pode se autenticar no sistema e logar. Nesta imagem, a senha foi digitada incorretamente, não correspondendo a este usuário. 
     </p>
   </li>
+  
+   <li>
+    <h3>10 - Usuario inexistente no sistema </h3>
+    <img src='https://user-images.githubusercontent.com/65437607/109547310-f990a500-7aa9-11eb-96bf-f7cea1c348a8.png'>
+    <p> 
+      Caso haja uma tentativa de se logar com um usuário que não esta cadastrado, o sistema mostrará a mensagem de "Usuario inexistente".
+    </p>
+  </li>
 </ul>
