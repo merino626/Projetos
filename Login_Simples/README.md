@@ -62,4 +62,12 @@
       Após todas as validações serem feitas, e todos os campos tiverem suas condições satisfeitas, o programa mostrará o horario em que a conta foi criada.
     </p>
   </li>
+  
+  <li>
+    <h3>8 - Conta criada </h3>
+    <img src='https://user-images.githubusercontent.com/65437607/109546674-4758dd80-7aa9-11eb-8f57-497c51415f87.png'>
+    <p> 
+      Após a conta ser criada é possivel visualizar todos os dados digitados pelo usuario, e manipula-los da melhor forma.
+    </p>
+  </li>
 </ul>
