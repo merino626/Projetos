@@ -10,7 +10,6 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 <br>
 
 <h3>Use a tabela abaixo para facilitar a navegação no repositório:</h3>
-<br>
 <table>
   <tr>
     <th colspan=2> Projetos </th>
