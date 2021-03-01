@@ -47,4 +47,11 @@
     </p>
   </li>
   
+  <li>
+    <h3>6 - Validação da senha (caracteres especiais) </h3>
+    <img src='https://user-images.githubusercontent.com/65437607/109545901-38256000-7aa8-11eb-9812-3cb739eaf3e3.png'>
+    <p> 
+      A segunda validação do campo <strong>senha</strong> acontece na verificação de simbolos especiais e números, como mostrados na imagem acima. Caso a senha tenha menos de 8       caracteres o programa informará: 'senha precisa ter 8 caracteres'.
+    </p>
+  </li>
 </ul>
