@@ -10,8 +10,8 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 <br>
 
 
-<ul>
+<ol>
   <li>1 </li>
   <li>2 </li>
   <li>3 </li>
-</ul>
+</ol>
