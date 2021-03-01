@@ -12,7 +12,7 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 
 <table>
   <tr>
-    <th colspan='2'> Lista </th>
+    <th colspan=2> Lista </th>
     <td> Dado1</td>
     <td> Dado2</td>
   </tr>
