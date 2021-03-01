@@ -19,6 +19,7 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
    <tr>
     <td> Interface</td>
     <td> https://www.youtube.com</td>
+    <td> Python</td>
     <td> Interface</td>
   </tr>
 
