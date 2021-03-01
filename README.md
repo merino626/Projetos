@@ -13,7 +13,6 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 <table>
   <tr>
     <th colspan=2><strong> Projetos</strong></th>
-    <td><strong> Linguagem </strong></td>
     <td><strong> Sobre </strong></td>
   </tr>
    <tr>
