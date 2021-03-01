@@ -54,4 +54,12 @@
       A segunda validação do campo <strong>senha</strong> acontece na verificação de simbolos especiais e números, como mostrados na imagem acima. Caso a senha tenha menos de 8       caracteres o programa informará: 'senha precisa ter 8 caracteres'.
     </p>
   </li>
+  
+  <li>
+    <h3>7 - Após todas as validações </h3>
+    <img src='https://user-images.githubusercontent.com/65437607/109546366-ddd8cf00-7aa8-11eb-871b-52b920d285f9.png'>
+    <p> 
+      Após todas as validações serem feitas, e todos os campos tiverem suas condições satisfeitas, o programa mostrará o horario em que a conta foi criada.
+    </p>
+  </li>
 </ul>
