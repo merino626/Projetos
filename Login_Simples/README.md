@@ -21,11 +21,20 @@
   </li>
   
    <li>
-    <h3>3 - Validação do Email </h3>
+    <h3>3 - Validação do Email (Email em branco) </h3>
     <img src='https://user-images.githubusercontent.com/65437607/109543565-3908c280-7aa5-11eb-94a4-46fa301bec5b.png'>
     <p> 
       A segunda validação é feita a partir do campo <strong>Email</strong>. Nesta imagem o usuário informou um apelido válido, porém como deixou o campo de email em branco, o
       programa não indentificou nenhum caractere no campo, ocasionando a mensagem de erro que pede para o usuário informar um email.
+    </p>
+  </li>
+  
+   <li>
+    <h3>4 - Validação do Email (Dominio do email inválido) </h3>
+    <img src='https://user-images.githubusercontent.com/65437607/109544364-39ee2400-7aa6-11eb-955d-6b122c83b8fc.png'>
+    <p> 
+      Está validação ainda acontece no campo <strong>Email</strong>, porém desta vez ocasiona um erro devido ao dominio inválido digitado pelo usuario. Nestre programa
+      um email considerado válido necessita ter apenas um caractere '@', e ao menos um caratere '.' após o arroba.
     </p>
   </li>
   
