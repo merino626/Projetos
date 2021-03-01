@@ -12,12 +12,12 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 
 <table>
   <tr>
-    <th colspan=2> Lista </th>
+    <th colspan=2> Projetos </th>
     <td> Dado1</td>
     <td> Dado2</td>
   </tr>
    <tr>
-    <td> Dado3</td>
+    <td> Dado3ssssssssssssssssss</td>
     <td> Dado1</td>
     <td> Dado2</td>
   </tr>
