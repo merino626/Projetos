@@ -16,7 +16,8 @@
     <h3>2 - Validação de apelido </h3>
     <img src='https://user-images.githubusercontent.com/65437607/109542619-07432c00-7aa4-11eb-8213-e6c3e5259e39.png'>
     <p> A primeira validação é referente ao campo <strong>apelido</strong>. Quando o usuário apenas digita um apelido, e logo em seguida clica no botão <strong>Confirmar </strong>
-        o programa executa apenas a primeira validação. No caso da imagem a validação não foi satisfeita, pois o caractere '_'(underline) não é permitido como apelido válido.
+        o programa executa apenas a primeira validação. No caso da imagem a validação não foi satisfeita, pois o caractere '_'(underline) não é permitido como apelido válido.        Algumas outras validações feitas neste campo são a de o apelido ter entre 8 e 25 caracteres, e que se caso já exista um usuário cadastrado com o mesmo apelido o programa 
+     mostra a mensagem "Este usuário já existe".
     </p>
   </li>
   
@@ -38,5 +39,12 @@
     </p>
   </li>
   
+   <li>
+    <h3>5 - Validação da senha </h3>
+    <img src='https://user-images.githubusercontent.com/65437607/109544948-f21bcc80-7aa6-11eb-9074-e1b50a39ff7f.png'>
+    <p> 
+      A validação do campo <strong>senha</strong> acontece apenas após os outros dois campos acima (apelido e email) serem validados. Neste caso, após o usuário digitar um email       que seja válido, a mensagem de erro ocorre porque o campo da senha está em branco. 
+    </p>
+  </li>
   
 </ul>
