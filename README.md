@@ -12,8 +12,9 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
 <h3>Use a tabela abaixo para facilitar a navegação no repositório:</h3>
 <table>
   <tr>
-    <th colspan=2><strong> Projetos</strong></th>
-    <td><strong> Sobre </strong></td>
+    <th ><strong> Projeto</strong></th>
+    <td>Linguagem </td>
+    <td colspan=2><strong> Sobre </strong></td>
   </tr>
    <tr>
     <td> Tela de login</td>
