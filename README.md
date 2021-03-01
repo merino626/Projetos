@@ -7,3 +7,11 @@ onde haverá um link de um video mostrando o projeto, e uma breve descrição de
 <h2>Objetivo</h2><br>
 O objetivo do repositório é comprovar as minhas habilidades de forma prática, <br>
 bem como continuar praticando a programação, buscando uma melhorá gradativa ao longo do tempo.
+<br>
+
+
+<ul>
+  <li>1 </li>
+  <li>2 </li>
+  <li>3 </li>
+</ul>
