@@ -48,3 +48,7 @@
       <p>Depois que o usuário teve sucesso ou não na busca do cep, ele pode fechar o PopUp e buscar novamente algum outro cep.</p>
      </li>
   </ul>
+  
+  
+<h3>Considerações finais</h3>
+<p>Este projeto é um projeto bem pequeno, porém decidi postar ele separado no github, mas pretendo usar ele em alguns outros projetos maiores que precisem fazer busca de cep. </p>
