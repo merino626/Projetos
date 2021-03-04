@@ -16,4 +16,12 @@
      </li>
 
 
+<li>
+      <h3>2 - Digitar o cep </h3>
+      <img src='https://user-images.githubusercontent.com/65437607/110002151-db1dea00-7cf3-11eb-85cd-ba6cd07dc95c.png'>
+      <p>Assim que o usuário terminar de digitar um cep válido, apenas é preciso clicar no botão para obter as informações do cep. </p>
+     </li>
+
+
+
   </ul>
