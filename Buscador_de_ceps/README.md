@@ -42,4 +42,9 @@
   obteve um retorno esperado.</p>
      </li>
 
+<li>
+      <h3>6 - Buscar novamente </h3>
+      <img src='https://user-images.githubusercontent.com/65437607/110003431-2258aa80-7cf5-11eb-880a-9be96efc81f7.png'>
+      <p>Depois que o usuário teve sucesso ou não na busca do cep, ele pode fechar o PopUp e buscar novamente algum outro cep.</p>
+     </li>
   </ul>
