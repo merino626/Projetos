@@ -25,9 +25,15 @@
 <li>
       <h3>3 - Informações do cep </h3>
       <img src='https://user-images.githubusercontent.com/65437607/110002333-06a0d480-7cf4-11eb-9564-61184a04398c.png'>
-      <p>Após clicar no botão, haverá um popUp em uma nova janela em que aparecerão as informações provenientes do cep, sendo respectivamente: cidade, uf, rua e bairro.  </p>
+      <p>Após clicar no botão, haverá um popUp em uma nova janela em que aparecerão as informações provenientes do cep, sendo respectivamente: cidade, uf, rua e bairro. Caso o 
+  usuário feche este popUp, ele retornará a tela de buscar o cep novamente para que ele possa fazer outras buscas.  </p>
      </li>
 
+<li>
+      <h3>4 - Cep inválido </h3>
+      <img src='https://user-images.githubusercontent.com/65437607/110002764-84fd7680-7cf4-11eb-97f1-9930f3d9c47e.png'>
+      <p>Nem sempre o cep digitado pelo usuário será um cep válido.</p>
+     </li>
 
 
   </ul>
