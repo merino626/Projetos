@@ -35,5 +35,11 @@
       <p>Nem sempre o cep digitado pelo usuário será um cep válido.</p>
      </li>
 
+<li>
+      <h3>5 - Cep não encontrado </h3>
+      <img src='https://user-images.githubusercontent.com/65437607/110002989-b6764200-7cf4-11eb-84e2-6dc85dd1e07c.png'>
+      <p>Quando o usúario tenta buscar um cep que não existe, ou que é inválido, o programa mostra que o cep é inválido, pois após fazer a requisição ao site de ceps ele não
+  obteve um retorno esperado.</p>
+     </li>
 
   </ul>
