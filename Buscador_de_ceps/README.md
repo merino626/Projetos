@@ -6,4 +6,14 @@
   <H2>O que o buscador faz na prática?</H2>
   <p>Na prática, através de uma requisição <strong>Http</strong> com o verbo "get" conseguimos passar o cep digitado pelo usuário junto com a requisição. A resposta desta requisição
   pode ser um <strong>Json</strong> com as informações do cep buscado(status code 200) ou apenas um erro devido ao cep ser inválido(status code 400). Há algumas situações em que mesmo
-  um cep sendo inválido, o status code é 200, porém o programa lida com esses casos através da estrutura <strong>Try</strong>, <strong>except </strong> do python</p>
+  um cep sendo inválido, o status code é 200, porém o programa lida com esses casos através da estrutura <strong>Try</strong>, <strong>except </strong> do python</p>.
+  
+  <ul>
+    <li>
+      <h3>1 - Tela inicial </h3>
+      <img src='https://user-images.githubusercontent.com/65437607/110001570-41563d00-7cf3-11eb-9e8b-27aa8a0696c2.png'>
+      <p>Esta é a tela inicial após o programa ser executado. Consiste em uma tela simples e intuitiva com apenas 3 campos. O primeiro é o que o usuário deve fazer ("digite o cep"), o segundo é onde o usuário irá digitar o cep a ser buscado, e o terceiro é um botão onde usuário irá clicar para iniciar a busca. </p>
+     </li>
+
+
+  </ul>
