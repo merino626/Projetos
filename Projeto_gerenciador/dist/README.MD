@@ -14,3 +14,14 @@
 <p> Fiz este projeto visando obter conhecimento técnico para me auxiliar na confecção de um software para meu projeto de conclusão de curso na faculdade,
 na qual desenvolveirei 3 soluções, sendo uma um software gerenciador de dados (será uma versão melhorada e ampliada deste projeto), um aplicativo mobile, e uma 
 página web para uma academia.</p>
+
+
+
+<h4>Download do projeto </h4>
+<a href='https://docs.google.com/u/0/uc?export=download&confirm=o00c&id=1x5q5SDaSefVqFU-rLLlN0DdnERzJVGAg'>Link para download do gerenciador </a>
+
+<ol>
+ <li>![111](https://user-images.githubusercontent.com/65437607/112194387-8d581b80-8be7-11eb-8c4b-89bb51e3a64b.png)
+ </li>
+
+</ol>
