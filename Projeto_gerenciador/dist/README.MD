@@ -24,7 +24,8 @@ página web para uma academia.</p>
  <li>Passo 1
   <img src='https://user-images.githubusercontent.com/65437607/112194387-8d581b80-8be7-11eb-8c4b-89bb51e3a64b.png'>
   Entrar no link e fazer download do arquivo .rar
- </li><br>
+ </li><br><br>
+ 
  <li>Passo 2<br>
   <img src='https://user-images.githubusercontent.com/65437607/112195079-4e769580-8be8-11eb-9409-94e6ab1c38dd.png'><br>
   Extrair o arquivo .rar
