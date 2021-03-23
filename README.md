@@ -25,11 +25,11 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
   <td> <a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/main.py'>código fonte (arquivo 2 - manipulação das telas)</a></td>
   <td> <a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/conexao_bd.py'>código fonte (arquivo 3 - conexão com banco de dados)</a></td>
   </tr>
-   <tr>
+   <tr rowspan='3'>
     <td> Tela de login</td>
     <td> Python</td>
     <td><a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/README.md'> Documentação </a> </td>
-     <td> <a rowspan='3' href='https://github.com/merino626/Projetos/blob/main/Login_Simples/Login_simples.py'>Ver código fonte</a></td>
+     <td> <a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/Login_simples.py'>Ver código fonte</a></td>
   </tr>
     </tr>
    <tr>
