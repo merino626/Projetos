@@ -20,8 +20,9 @@ página web para uma academia.</p>
 <h4>Download do projeto </h4>
 <a href='https://docs.google.com/u/0/uc?export=download&confirm=o00c&id=1x5q5SDaSefVqFU-rLLlN0DdnERzJVGAg'>Link para download do gerenciador </a>
 
-<ol>
- <li><img src='https://user-images.githubusercontent.com/65437607/112194387-8d581b80-8be7-11eb-8c4b-89bb51e3a64b.png'>
+<ul>
+ <li>Passo 1
+  <img src='https://user-images.githubusercontent.com/65437607/112194387-8d581b80-8be7-11eb-8c4b-89bb51e3a64b.png'>
  </li>
 
-</ol>
+</ul>
