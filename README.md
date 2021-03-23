@@ -15,12 +15,12 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
   <tr>
     <th ><strong> Projeto</strong></th>
     <td>Linguagem </td>
-    <td colspan=2><strong> Sobre </strong></td>
+    <td colspan=4><strong> Sobre </strong></td>
   </tr>
   <tr>
     <td> Gerenciador de matriculas (crud)</td>
     <td> Python</td>
-    <td><a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/README.md'> Documentação </a> </td>
+    <td><a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/README.MD'> Documentação </a> </td>
      <td> <a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/Gerenciador.py'>código fonte (arquivo 1)</a></td>
   <td> <a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/main.py'>código fonte (arquivo 2 - manipulação das telas)</a></td>
   <td> <a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/conexao_bd.py'>código fonte (arquivo 3 - conexão com banco de dados)</a></td>
