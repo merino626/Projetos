@@ -37,7 +37,7 @@ página web para uma academia.</p>
  </li><br><br>
  
   <li>Passo 4<br>
-  <img src='https://user-images.githubusercontent.com/65437607/112195495-c93fb080-8be8-11eb-9c3e-cdfcd8ad7e5d.png'><br>
-   Abrir o arquivo extraido e entrar na pasta dist
+  <img src='https://user-images.githubusercontent.com/65437607/112195794-1cb1fe80-8be9-11eb-8f16-94f6d370b0a0.png'><br>
+   Assim que estiver dentro da pasta dist, encontrar o executavel nomeado ('gerenciador') e executa-lo
  </li><br><br>
 </ul>
