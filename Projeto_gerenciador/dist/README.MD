@@ -35,4 +35,9 @@ página web para uma academia.</p>
   <img src='https://user-images.githubusercontent.com/65437607/112195495-c93fb080-8be8-11eb-9c3e-cdfcd8ad7e5d.png'><br>
    Abrir o arquivo extraido e entrar na pasta dist
  </li><br><br>
+ 
+  <li>Passo 4<br>
+  <img src='https://user-images.githubusercontent.com/65437607/112195495-c93fb080-8be8-11eb-9c3e-cdfcd8ad7e5d.png'><br>
+   Abrir o arquivo extraido e entrar na pasta dist
+ </li><br><br>
 </ul>
