@@ -29,6 +29,10 @@ página web para uma academia.</p>
  <li>Passo 2<br>
   <img src='https://user-images.githubusercontent.com/65437607/112195079-4e769580-8be8-11eb-9409-94e6ab1c38dd.png'><br>
   Extrair o arquivo .rar
- </li>
+ </li><br><br>
 
+ <li>Passo 3<br>
+  <img src='https://user-images.githubusercontent.com/65437607/112195495-c93fb080-8be8-11eb-9c3e-cdfcd8ad7e5d.png'><br>
+   Abrir o arquivo extraido e entrar na pasta dist
+ </li><br><br>
 </ul>
