@@ -6,3 +6,11 @@
 <p>Neste projeto fiz um software de gerenciamento de matrículas utilizando o python, PyQt5 (Biblioteca para criação de interface gráficas) e banco de dados Sqlite. O software faz todas as operações de crud no banco de dados, e mostra os dados graficamente na tela de acordo com a pesquisa que o usuário desejar.
 
  A tabela foi feita em cima de uma regra de negócio onde cada aluno é identificado por um ID e um nome, possui uma matricula ativa ou não (1 ou 0), o tipo de matricula varia entre mensal, trimestral, semestral e anual (30, 60, 90, 180 e 360), a data de inicio é o dia em que o registro foi inserido, e a data fim é o calculo da data de inicio + o tipo de matricula. </p>
+
+
+<br>
+
+<h3>Objetivo do projeto </h3>
+<p> Fiz este projeto visando obter conhecimento técnico para me auxiliar na confecção de um software para meu projeto de conclusão de curso na faculdade,
+na qual desenvolveirei 3 soluções, sendo uma um software gerenciador de dados (será uma versão melhorada e ampliada deste projeto), um aplicativo mobile, e uma 
+página web para uma academia.</p>
