@@ -40,4 +40,9 @@ página web para uma academia.</p>
   <img src='https://user-images.githubusercontent.com/65437607/112195794-1cb1fe80-8be9-11eb-8f16-94f6d370b0a0.png'><br>
    Assim que estiver dentro da pasta dist, encontrar o executavel nomeado ('gerenciador') e executa-lo
  </li><br><br>
+ 
+ <li>Passo 5<br>
+  <img src='https://user-images.githubusercontent.com/65437607/112195979-51be5100-8be9-11eb-9ff3-90a0b89e6c24.png'><br>
+   O software abrirá e esta pronto para ser utilizado
+ </li><br><br>
 </ul>
