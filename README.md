@@ -29,7 +29,7 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
     <td> Tela de login</td>
     <td> Python</td>
     <td><a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/README.md'> Documentação </a> </td>
-     <td> <a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/Login_simples.py'>Ver código fonte</a></td>
+     <td> <a rowspan='3' href='https://github.com/merino626/Projetos/blob/main/Login_Simples/Login_simples.py'>Ver código fonte</a></td>
   </tr>
     </tr>
    <tr>
