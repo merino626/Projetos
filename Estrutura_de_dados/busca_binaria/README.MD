@@ -1,7 +1,7 @@
 <h1>Busca binária </h1>
 <p>O algoritmo de busca binaria é muito poderoso quando falamos de busca em um vetor.
 Para utilizarmos ela é simples, basta dar 2 dados a uma busca: vetor e valor procurado.
-Bara que a busca seja bem sucedida o vetor precisa estar <strong>ordenado</strong>, já que essa regra é uma das premissas da busca binaria.
+Para que a busca seja bem sucedida o vetor precisa estar <strong>ordenado</strong>, já que essa regra é uma das premissas da busca binaria.
 </p><br>
 
 <h2>Porque a busca binaria é tão poderosa? </h2>
