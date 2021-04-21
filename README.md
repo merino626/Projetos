@@ -41,8 +41,7 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
    <tr>
     <td> Algoritmos de estrutra de dados</td>
     <td> Python</td>
-    <td><a href='https://github.com/merino626/Projetos/blob/main/Buscador_de_ceps/README.md'> Explicação </a> </td>
-     <td colspan='3'> <a href='https://github.com/merino626/Projetos/blob/main/Buscador_de_ceps/busca_cep.py'>Algoritmos</a></td>
+     <td colspan='3'> <a href='https://github.com/merino626/Projetos/tree/main/Estrutura_de_dados'>Algoritmos</a></td>
   </tr>
 
 
