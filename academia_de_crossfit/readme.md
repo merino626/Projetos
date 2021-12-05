@@ -1,2 +1,2 @@
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VRxD5TLo9aU&t/0.jpg)](https://www.youtube.com/watch?v=VRxD5TLo9aU)
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 <a href='http://www.youtube.com/watch?v=VRxD5TLo9aU'>Link para o video de explicação do projeto </a>
