@@ -14,7 +14,7 @@
 
 <ul>
 <li>
-![2](https://user-images.githubusercontent.com/65437607/145723139-31cd5e63-e519-45f1-8f37-1378a1870284.png)<br>
+![2](https://user-images.githubusercontent.com/65437607/145723139-31cd5e63-e519-45f1-8f37-1378a1870284.png)
 <li>
 
   
