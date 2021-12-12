@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Gerenciador de avalialções físicas</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Icons/relat.png</normaloff>../../Icons/relat.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 39, 39);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(39, 39, 39);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Avaliações físicas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="inputBuscar">
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+background-color: rgb(20, 20, 20);
+border-radius:10px;
+font-size: 20px;
+font-weight:bold;
+color: rgb(255, 255, 255);
+padding-left: 10px;
+
+}
+</string>
+            </property>
+            <property name="placeholderText">
+             <string>Buscar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="radioNomeAluno">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pesquisa pelo nome do aluno.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QRadioButton{
+color:#fff;
+font-size:15px;
+font-weight: bold;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Nome do aluno</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="radioTodosRegistros">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pesuisar todos os registros de alunos.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QRadioButton{
+color:#fff;
+font-size:15px;
+font-weight: bold;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Todos os registros</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_pesquisar">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Botão pesquisar. A pesquisa é feita de acordo com o tipo de pesquisa selecionado acima.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="whatsThis">
+             <string/>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:10px;
+  text-align: center;
+   color: #ffffff;
+font-size:20px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Pesquisar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../Icons/searchicon-removebg-preview-removebg-preview.png</normaloff>../../Icons/searchicon-removebg-preview-removebg-preview.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>36</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(39, 39, 39);</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(39, 39, 39);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QTableWidget" name="tabelaAvaliacoes">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>54564</width>
+              <height>5345646</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QTableWidget{
+background-color: rgb(20, 20, 20);
+border-radius:4px;
+font-size:16px;
+
+font-weight:bold;
+color: rgb(255, 255, 255);
+
+}
+
+QHeaderView::section {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 32px;
+}
+
+QTableView::item:selected{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.448864 rgba(52, 111, 25, 255), stop:1 rgba(43, 84, 36, 255));
+}</string>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::ExtendedSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <attribute name="horizontalHeaderMinimumSectionSize">
+             <number>110</number>
+            </attribute>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>110</number>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+      <zorder>frame_4</zorder>
+      <zorder>frame_3</zorder>
+      <zorder>line_2</zorder>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 39, 39);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="maximumSize">
+       <size>
+        <width>9898989</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 39, 39);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QFrame" name="frame_5">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(39, 39, 39);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QPushButton" name="btn_fechar">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>62</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Botão voltar. Volta ao modulo inicial.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:10px;
+  text-align: center;
+   color: #ffffff;
+font-size:20px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Voltar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../Icons/Setapratras-removebg-preview.png</normaloff>../../Icons/Setapratras-removebg-preview.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_6">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(39, 39, 39);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="btn_abreJanelaAtualizar">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>52</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Botão alterar. Abre uma nova janela para alteração de registros.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:10px;
+  text-align: center;
+   color: #ffffff;
+font-size:20px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Alterar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../Icons/updateicon-removebg-preview-removebg-preview.png</normaloff>../../Icons/updateicon-removebg-preview-removebg-preview.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>80</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+Concertar os bugs
+
+atualizar av fisicas esta atualizando errado
+
+gerar relatorios esta gerando relatorio de matricula ativa e inativa ao mesmo tempo para o carlos

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>765</width>
+    <height>357</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>540</width>
+    <height>347</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>840</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Grerenciador de despesas - Alterar</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Icons/updateicon-removebg-preview-removebg-preview.png</normaloff>../../Icons/updateicon-removebg-preview-removebg-preview.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+background-color: rgb(39, 39, 39);
+
+}QMessageBox {
+	background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 39, 39);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>873</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Sobrescreva as informações dos alunos abaixo para atualizar os dados&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tabelaAtualizar">
+         <property name="styleSheet">
+          <string notr="true">QTableWidget{
+background-color: rgb(20, 20, 20);
+border-radius:4px;
+font-size:16px;
+
+font-weight:bold;
+color: rgb(255, 255, 255);
+
+}
+
+QHeaderView::section {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 32px;
+}
+
+QTableView::item:selected{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.448864 rgba(52, 111, 25, 255), stop:1 rgba(43, 84, 36, 255));
+}</string>
+         </property>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>39</number>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>160</number>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>30</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>New Column</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>New Column</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>New Column</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>New Column</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>New Column</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="btn_sairJanelaAtualizar">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:10px;
+  text-align: center;
+   color: #ffffff;
+font-size:20px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Voltar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../Icons/Setapratras-removebg-preview.png</normaloff>../../Icons/Setapratras-removebg-preview.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_atualizarDados">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:10px;
+  text-align: center;
+   color: #ffffff;
+font-size:20px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Atualizar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../Icons/updateicon-removebg-preview-removebg-preview.png</normaloff>../../Icons/updateicon-removebg-preview-removebg-preview.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

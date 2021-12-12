@@ -1,0 +1,86 @@
+19/08
+Funcionalidade de inserção de aluno funcionando corretamente
+Dados do dashboard estão sendo carregados em um Thread separado
+Corrigido atualização da tabela em memória assim que adicionado um aluno (é preciso carregar a tabela novamente sempre que um crud ocorrer)
+
+
+
+31/08
+Coisas importantes de lembrar para restruturar essa classe, e refazer os outros cruds semelhantes
+
+alterar e excluir
+   - Existe um método só pra popular a tabela das telas de alterar e excluir
+   - Existe uma função só para pegar os dados das tabelas de alterar e excluir e
+     Fazer as querys para isso. No final desse método é chamado a função de destruir a respectiva janela, que por sinal
+     é a mesma função que sobrescreve o close_event
+     * Insight = Toda tela que possui uma tabela de "confirmação" de dados como a de alterar e excluir, precisa no final das contas
+                  zerar aquela lista que auxilia na transmissão dos dados de uma tabela para outra. Portanto uma funcionalidade como 
+                  a de inserir e excluir gira em torno de 3 funções: A de popular a tabela, a de acionar a ação(Excluir ou alterar propriamente)
+                  e a de cuidar do close_event (Tanto pelo X ou pelo botão voltar)
+       Insight2 = Sempre que ocorrer um evento crud, é preciso já atualizar a tabela principal de dados. Pode ter a abordagem de um botão
+                  Que o usuario clica e atualiza a tabela, ou  atualização automatica sempre que um evento acontecer (fechamento e abertura de telas)
+                  , porém a segunda opção será mais onerosa na questão de performance.
+       Insight3 = Para a funcionalidade de pesquisa, não será preciso necessariamente fazer uma query no banco. Por questão de performance, a query
+                  Pode ser performada na tabela que já esta em memória, assim otimizando o sistema. Pois fazer uma query no banco a cada consulta
+                  na funcionalidade não seria interessante
+
+
+
+
+Ideias: Load spinner nas atualizações e exclusões que forem grandes.
+
+
+falta fazer: A funcionalidade de procura no crud dos alunos
+
+
+* Provavelmente irei deixar todos os icones de telas iguais a seus respectivos módulos.
+* Colocar um botão chamado "atualizar tabela" em baixo de todos os botões pesquisar
+* Campo massa muscular ira mudar para PESO
+* Pra depois, otimizar a atualização de av.fisicas do mesmo modo que a atualização de alunos,
+* Ver como editar as cores das QMessageBox e modificar o background para branco
+
+* Validações para os campos das tabelas de atualizar (Não deixar atualizar se o campo não estiver preenchido por exemplo)
+* A atualização do aluno ta bugada, ta atualizando pessoas com nomes iguais.
+
+
+* Ver o porque de quando eu fecho a janela inserir pelo X ele não esta atualizando a tabela de alunos.
+
+
+
+
+
+
+
+
+o que irá mudar?
+campo idade virará data nascimento
+-tela inserir e atualizar
+
+
+
+
+
+
+
+07/10 TODO
+
+- Fazer o "git diff" pra atualizacao de av fisica
+- Mudar o campo idade para DATE no banco
+- Colocar icone nas telas de estoque
+- Aprender mais sobre matplotlib e gerar graficos
+- Verfificar nomes de telas e de popup de erros se estão corretos
+
+
+
+
+
+
+terminar - 
+Estilização Correta de tudo
+tela de tutorial
+
+-DETALHES-
+Mudar o campo idade se sobrar tempo, mudar o campo de massa magra pra peso
+Mudar tipo de pesquisa para data inicio e data fim na tela de matriculas
+(Talvez colocar matriculas vencidas> Em que a data fim já passou do dia de hoje)
+(Matriculas não vendidas> Em que a data fim ainda não passou o dia de hoje)

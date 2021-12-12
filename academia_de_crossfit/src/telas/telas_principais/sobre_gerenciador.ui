@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>672</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>672</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>500</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 39, 39);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Geral</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Equipe</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Tela inicial</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>170</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>160</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Módulos</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Alunos</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Matrículas</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Avaliações físicas</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Estoque</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Despesas</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_5">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Relatórios</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_11">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Alunos</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_12">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Matrículas</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_14">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Despesas</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_13">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Estoque</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_6">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Email</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_15">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:3px;
+  text-align: center;
+   color: #ffffff;
+font-size:16px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Tela de emails</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 39, 39);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(20, 20, 20);
+border-radius:4px;
+font-size:16px;
+
+font-weight:bold;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="currentIndex">
+          <number>3</number>
+         </property>
+         <widget class="QWidget" name="page">
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="styleSheet">
+              <string notr="true">font-size:25px;
+font-weight:bold;</string>
+             </property>
+             <property name="text">
+              <string>Software desenvolvido por Fivetech ™</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_3"/>
+         <widget class="QWidget" name="page_1">
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>578</width>
+                <height>1468</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_4">
+               <item>
+                <widget class="QLabel" name="label_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#00ff00;&quot;&gt;Visão geral da tela inical:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_3">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label">
+                 <property name="minimumSize">
+                  <size>
+                   <width>560</width>
+                   <height>400</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>570</width>
+                   <height>400</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>../../Icons/inical.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_4">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTextBrowser" name="textBrowser">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>1000</height>
+                  </size>
+                 </property>
+                 <property name="html">
+                  <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:16px; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Na tela inicial é possível vizualizar os principais compomentes existentes no sistema gerenciador.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#00ff00;&quot;&gt; Dashboard&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; color:#00ff00;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;O dashboard é composto por diversas abas referentes ao negócio. Cada aba como &amp;quot;Geral&amp;quot;, &amp;quot;Despesas&amp;quot;, &amp;quot;Estoque&amp;quot;, &amp;quot;Matrículas&amp;quot; e &amp;quot;Alunos&amp;quot; possui seu próprio gráfico. Ambos correspondem aos dados cadastrados no sistema.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;Abaixo das abas do dashboard existe um botão para atualizar os dados do dashboard (Gráficos e informações nas abas). Sempre que for preciso é possível atualizar os gráficos clicando neste botão.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#00ff00;&quot;&gt;Gerenciamento&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;O gerenciamento é composto por quatro botões: &amp;quot;matrículas&amp;quot;, &amp;quot;alunos&amp;quot;, &amp;quot;Estoque&amp;quot; e &amp;quot;despesas&amp;quot;. Os botões  levam aos módulos de gerenciamento da academia, mostrando todos os dados relativos ao modulo clicado. Dentro de cada módulo é possível gerenciar os dados fazendo diversos tipos de operações.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;Cada módulo de gerenciamento possui um tutorial detalhado, localizada na aba lateral de indice a esquerda desta tela.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#00ff00;&quot;&gt;Relatórios&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;É possível gerar relatórios referentes a dados de alunos, matrículas, estoque e despesas. No menu lateral localizado na parte esquerda da tela principal existe a aba &amp;quot;Gerar PDF's&amp;quot;, com o respectivo botão para os diferentes tipos de relatórios.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Cada relatório &lt;/span&gt;&lt;span style=&quot; font-size:16px; color:#ffffff;&quot;&gt;possui um tutorial detalhado, localizada na aba lateral de indice a esquerda desta tela.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#00ff00;&quot;&gt;Enviar e-mail&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; color:#00ff00;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Para ir para a tela de enviar emails para os alunos, basta fazer o login em uma conta google no botão localizado na parte superior direita da tela inicial. Após a autenticação feita com a conta google, é preciso clicar no botão &amp;quot;Enviar email aos alunos&amp;quot; localizado no menu lateral na parte esquerda da tela.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;A tela de email possui um tutorial detalhado, localizada na aba lateral de indice a esquerda desta tela.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_2">
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_2">
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_2">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>-490</y>
+                <width>578</width>
+                <height>1160</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_9">
+               <item>
+                <widget class="QLabel" name="label_8">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font-size:25px;</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;Alunos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_8">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_9">
+                 <property name="minimumSize">
+                  <size>
+                   <width>560</width>
+                   <height>400</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>570</width>
+                   <height>400</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>../../Icons/tutorials/alunos/tela_alunos.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTextBrowser" name="textBrowser_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>145</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>130</height>
+                  </size>
+                 </property>
+                 <property name="html">
+                  <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:16px; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;O módulo de alunos é responsável por possuir as operações de pesquisa de diversos tipos de dados de alunos existentes no sistema, inserir um aluno novo, alterar ou excluir um aluno já existente.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;O módulo de alunos também possui o botão de acesso para o módulo de avaliações físicas dos alunos.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_11">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#00ff00;&quot;&gt;Pesquisar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_10">
+                 <property name="minimumSize">
+                  <size>
+                   <width>200</width>
+                   <height>500</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>250</width>
+                   <height>500</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>../../Icons/tutorials/alunos/tela_alunos_pesquisa.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_9">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>500</height>
+          </size>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

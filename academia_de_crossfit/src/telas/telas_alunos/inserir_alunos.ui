@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InsertWindow</class>
+ <widget class="QMainWindow" name="InsertWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>676</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>676</width>
+    <height>478</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>676</width>
+    <height>478</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Gerenciador de alunos - Inserir novo aluno</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Icons/aluno_icon-removebg-preview.png</normaloff>../../Icons/aluno_icon-removebg-preview.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>6526262</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 39, 39);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(39, 39, 39);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QFrame" name="frame_8">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>240</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="styleSheet">
+                <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Inserir&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;dados&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_fecharJanelaInserir">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Botão voltar. Retorna ao gerenciador de alunos.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:10px;
+  text-align: center;
+   color: #ffffff;
+font-size:20px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+            </property>
+            <property name="text">
+             <string>Voltar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../Icons/Setapratras-removebg-preview.png</normaloff>../../Icons/Setapratras-removebg-preview.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>15</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Nome</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="nomeAluno">
+            <property name="styleSheet">
+             <string notr="true">
+QLineEdit{
+font-size: 20px;
+text-align: center;
+border-radius: 10px;
+background-color: rgb(20, 20, 20);
+color: rgb(255, 255, 255);
+}
+
+</string>
+            </property>
+            <property name="inputMask">
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Digite o nome do aluno.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Idade</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="idadeAluno">
+            <property name="styleSheet">
+             <string notr="true">
+QLineEdit{
+font-size: 20px;
+text-align: center;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+background-color: rgb(20, 20, 20);
+color: rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Digite a idade do aluno.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Cpf</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="cpfAluno">
+            <property name="styleSheet">
+             <string notr="true">
+QLineEdit{
+font-size: 20px;
+text-align: center;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+background-color: rgb(20, 20, 20);
+color: rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Digite o CPF do aluno.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Telefone</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="telefoneAluno">
+            <property name="styleSheet">
+             <string notr="true">
+QLineEdit{
+font-size: 20px;
+text-align: center;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+background-color: rgb(20, 20, 20);
+color: rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Digite o telefone do aluno.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-size:25px;
+font-weight: bold;
+color: #fff;</string>
+            </property>
+            <property name="text">
+             <string>Email</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="emailAluno">
+            <property name="styleSheet">
+             <string notr="true">
+QLineEdit{
+font-size: 20px;
+text-align: center;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+background-color: rgb(20, 20, 20);
+color: rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Digite o E-mail do aluno.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QFrame" name="frame_6">
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_iserirDados">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Botão inserir. Confirma os dados digitados acima e insere um novo aluno.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.017, x2:1, y2:1, stop:0.113636 rgba(0, 129, 0, 255), stop:1 rgba(66, 138, 60, 255));
+border-radius:10px;
+  text-align: center;
+   color: #ffffff;
+font-size:20px;
+font-weight:bold;
+
+}
+
+QPushButton:hover{
+background-color: rgb(36, 199, 31);
+
+
+}
+
+QPushButton:pressed{
+  background-color: #3e8e41;
+
+}</string>
+               </property>
+               <property name="text">
+                <string>Inserir</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../../Icons/InserirIcon-removebg-preview-removebg-preview.png</normaloff>../../Icons/InserirIcon-removebg-preview-removebg-preview.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>40</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_7">
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
