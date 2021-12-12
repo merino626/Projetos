@@ -4,7 +4,7 @@
 
 ![Screenshot_1](https://user-images.githubusercontent.com/65437607/145722890-7f43b0d1-408a-49e4-8c38-9559be25f23f.png)
 
-[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/65437607/112191507-da86be00-8be4-11eb-90fd-cb871adc7e25.png)](https://www.youtube.com/watch?v=R4w5Wsy76YU&t=3s&ab_channel=Coding4ever "Video explicando o funcionamento do projeto")
+[![Everything Is AWESOME](https://img.youtube.com/vi/R4w5Wsy76YU/0.jpg)](https://www.youtube.com/watch?v=R4w5Wsy76YU "Video explicação do projeto")<br>
 <a href='https://www.youtube.com/watch?v=R4w5Wsy76YU&t=3s&ab_channel=Coding4ever'>Link para o video de explicação do projeto </a>
 
 <br><br>
