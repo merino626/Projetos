@@ -21,7 +21,7 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
     <td> Gerenciador de matriculas (crud)</td>
     <td> Python</td>
     <td><a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/README.MD'> Documentação </a> </td>
-     <td colspan='3'> <a href='https://www.youtube.com/watch?v=eRzS9EJqEt4&ab_channel=Coding4ever'>Cídeo explicação</a></td>
+     <td colspan='3'> <a href='https://www.youtube.com/watch?v=eRzS9EJqEt4&ab_channel=Coding4ever'>Vídeo explicação</a></td>
   </tr>
      <tr>
     <td> Youtube Downloader</td>
