@@ -44,18 +44,18 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
      <td colspan='2'> <a href='https://github.com/merino626/Projetos/tree/main/projeto_despesa'>Documentação</a></td>
    <td> <a href='https://merino626.github.io/projeto_despsas/'>Site do projeto</a></td>
   </tr>
-     <tr>
-    <td> Tela de login</td>
-    <td> Python</td>
-    <td><a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/README.md'> Documentação </a> </td>
-     <td colspan='3'> <a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/Login_simples.py'>Ver código fonte</a></td>
-  </tr>
     </tr>
    <tr>
     <td> Buscador de ceps</td>
     <td> Python</td>
     <td><a href='https://github.com/merino626/Projetos/blob/main/Buscador_de_ceps/README.md'> Documentação </a> </td>
      <td colspan='3'> <a href='https://github.com/merino626/Projetos/blob/main/Buscador_de_ceps/busca_cep.py'>Ver código fonte</a></td>
+  </tr>
+  <tr>
+    <td> Tela de login (Projeto antigo - inciante)</td>
+    <td> Python</td>
+    <td><a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/README.md'> Documentação </a> </td>
+     <td colspan='3'> <a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/Login_simples.py'>Ver código fonte</a></td>
   </tr>
    <tr>
     <td> Algoritmos de estrutra de dados</td>
