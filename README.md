@@ -55,6 +55,13 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
     <td><a href='https://github.com/merino626/Projetos/tree/main/academia_de_crossfit'> Documentação </a> </td>
      <td colspan='3'> <a href='https://www.youtube.com/watch?v=VRxD5TLo9aU&ab_channel=Coding4ever'>Vídeo explicação</a></td>
   </tr>
+  <tr>
+    <td> Controle de despesas (Melhor projeto)</td>
+    <td> Javascript </td>
+    <td><a href='https://github.com/merino626/Projetos/tree/main/projeto_despesa'> Documentação </a> </td>
+     <td colspan='2'> <a href='https://github.com/merino626/Projetos/tree/main/projeto_despesa'>Documentação</a></td>
+   <td> <a href='https://merino626.github.io/projeto_despsas/'>Site do projeto</a></td>
+  </tr>
 
 </table>
 
