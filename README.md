@@ -25,7 +25,26 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
   <td> <a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/main.py'>código fonte (arquivo 2)</a></td>
   <td> <a href='https://github.com/merino626/Projetos/blob/main/Projeto_gerenciador/dist/conexao_bd.py'>código fonte (arquivo 3)</a></td>
   </tr>
-   <tr>
+     <tr>
+    <td> Youtube Downloader</td>
+    <td> Python</td>
+    <td><a href='https://github.com/merino626/Projetos/tree/main/youtube_downloader'> Documentação </a> </td>
+     <td colspan='3'> <a href='https://www.youtube.com/watch?v=R4w5Wsy76YU&ab_channel=Coding4ever'>Vídeo explicação</a></td>
+  </tr>
+  <tr>
+    <td> Gerenciador de academia (Melhor projeto)</td>
+    <td> Python</td>
+    <td><a href='https://github.com/merino626/Projetos/tree/main/academia_de_crossfit'> Documentação </a> </td>
+     <td colspan='3'> <a href='https://www.youtube.com/watch?v=VRxD5TLo9aU&ab_channel=Coding4ever'>Vídeo explicação</a></td>
+  </tr>
+  <tr>
+    <td> Controle de despesas</td>
+    <td> Javascript </td>
+    <td><a href='https://github.com/merino626/Projetos/tree/main/projeto_despesa'> Documentação </a> </td>
+     <td colspan='2'> <a href='https://github.com/merino626/Projetos/tree/main/projeto_despesa'>Documentação</a></td>
+   <td> <a href='https://merino626.github.io/projeto_despsas/'>Site do projeto</a></td>
+  </tr>
+     <tr>
     <td> Tela de login</td>
     <td> Python</td>
     <td><a href='https://github.com/merino626/Projetos/blob/main/Login_Simples/README.md'> Documentação </a> </td>
@@ -42,25 +61,6 @@ bem como continuar praticando a programação, buscando uma melhorá gradativa a
     <td> Algoritmos de estrutra de dados</td>
     <td> Python</td>
      <td colspan='4'> <a href='https://github.com/merino626/Projetos/tree/main/Estrutura_de_dados'>Algoritmos</a></td>
-  </tr>
-     <tr>
-    <td> Youtube Downloader</td>
-    <td> Python</td>
-    <td><a href='https://github.com/merino626/Projetos/tree/main/youtube_downloader'> Documentação </a> </td>
-     <td colspan='3'> <a href='https://www.youtube.com/watch?v=R4w5Wsy76YU&ab_channel=Coding4ever'>Vídeo explicação</a></td>
-  </tr>
-  <tr>
-    <td> Gerenciador de academia (Melhor projeto)</td>
-    <td> Python</td>
-    <td><a href='https://github.com/merino626/Projetos/tree/main/academia_de_crossfit'> Documentação </a> </td>
-     <td colspan='3'> <a href='https://www.youtube.com/watch?v=VRxD5TLo9aU&ab_channel=Coding4ever'>Vídeo explicação</a></td>
-  </tr>
-  <tr>
-    <td> Controle de despesas (Melhor projeto)</td>
-    <td> Javascript </td>
-    <td><a href='https://github.com/merino626/Projetos/tree/main/projeto_despesa'> Documentação </a> </td>
-     <td colspan='2'> <a href='https://github.com/merino626/Projetos/tree/main/projeto_despesa'>Documentação</a></td>
-   <td> <a href='https://merino626.github.io/projeto_despsas/'>Site do projeto</a></td>
   </tr>
 
 </table>
