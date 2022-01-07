@@ -1,0 +1,30 @@
+posição inicio
+posição fim
+
+enquanto inicio for menor ou igual a fim>
+meio é igual a inicio + fim truncado por dois
+
+se vetor[meio] == valor buscado
+	retorna o indice do valor buscado
+
+senão se  meu valor > vetor[meio]:
+	inicio = meio + 1
+
+se não:
+	fim = meio - 1
+
+
+*-------------------*
+def busca_binaria(vetor, valor):
+	inicio = 0
+	fim = len(vetor) - 1
+
+	while inicio <= fim:
+		meio = (inicio + fim) // 2
+		if vetor[meio] == valor:
+			return meio   # Indice do valor buscado
+		elif valor > meio:    # valor tiver pra la -> do meio
+			inicio = meio + 1
+		else: 		      # Valor tiver pra ca <- do meio
+			fim = meio - 1
+	return -1
